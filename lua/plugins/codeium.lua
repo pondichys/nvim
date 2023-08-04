@@ -22,7 +22,7 @@ return {
 		end,
 		-- NOTE: This function removes all Codeium server binaries except the most recent one. Credit to https://github.com/chrisgrieser
 		build = function()
-			local bin_path = vim.fn.stdpath("data") .. "/codeium/bin"
+			local bin_path = vim.fn.stdpath("cache") .. "/codeium/bin"
 			local oldBinaries = vim.fs.find(function()
 				return true
 			end, { type = "file", limit = math.huge, path = bin_path })
