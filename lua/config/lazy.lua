@@ -14,7 +14,11 @@ require("lazy").setup({
 		-- { import = "lazyvim.plugins.extras.lang.typescript" },
 		-- { import = "lazyvim.plugins.extras.lang.json" },
 		-- { import = "lazyvim.plugins.extras.ui.mini-animate" },
+    -- enable extra config for Go
 		{ import = "lazyvim.plugins.extras.lang.go" },
+    -- enable extra config for Python
+		{ import = "lazyvim.plugins.extras.lang.python" },
+    -- enable extra config for Terraform
 		{ import = "lazyvim.plugins.extras.lang.terraform" },
 		-- import/override with your plugins
 		{ import = "plugins" },
