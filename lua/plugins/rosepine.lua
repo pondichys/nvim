@@ -3,12 +3,12 @@ return {
     "rose-pine/neovim",
     name = "rose-pine",
     config = true,
-    lazy = false,
+    lazy = true,
   },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "rose-pine",
-    },
-  },
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorscheme = "rose-pine",
+  --   },
+  -- },
 }
