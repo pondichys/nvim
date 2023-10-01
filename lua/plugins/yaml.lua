@@ -26,7 +26,7 @@ return {
   },
   -- YAML formatting
   {
-    "jose-elias-alvarez/null-ls.nvim",
+    "nvimtools/none-ls.nvim",
     opts = function(_, opts)
       local nlb = require("null-ls.builtins")
       vim.list_extend(opts.sources, { nlb.formatting.yamlfmt })
