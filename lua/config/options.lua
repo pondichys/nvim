@@ -11,3 +11,5 @@ vim.opt.hlsearch = true
 vim.opt.showcmdloc = "statusline"
 -- Add winbar with path to the file opened in the buffer
 vim.opt.winbar = "%=%m %f"
+-- Disable autoformat globally
+vim.g.autoformat = false

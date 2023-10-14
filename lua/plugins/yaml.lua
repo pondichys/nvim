@@ -25,11 +25,11 @@ return {
     },
   },
   -- YAML formatting
-  {
-    "nvimtools/none-ls.nvim",
-    opts = function(_, opts)
-      local nlb = require("null-ls.builtins")
-      vim.list_extend(opts.sources, { nlb.formatting.yamlfmt })
-    end,
-  },
+  -- {
+  --   "nvimtools/none-ls.nvim",
+  --   opts = function(_, opts)
+  --     local nlb = require("null-ls.builtins")
+  --     vim.list_extend(opts.sources, { nlb.formatting.yamlfmt })
+  --   end,
+  -- },
 }

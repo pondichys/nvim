@@ -11,11 +11,11 @@ return {
       vim.list_extend(opts.ensure_installed, { "bash-language-server", "shellcheck", "shfmt" })
     end,
   },
-  {
-    "nvimtools/none-ls.nvim",
-    opts = function(_, opts)
-      local nls = require("null-ls")
-      table.insert(opts.sources, nls.builtins.formatting.shfmt)
-    end,
-  },
+  -- {
+  --   "nvimtools/none-ls.nvim",
+  --   opts = function(_, opts)
+  --     local nls = require("null-ls")
+  --     table.insert(opts.sources, nls.builtins.formatting.shfmt)
+  --   end,
+  -- },
 }
